@@ -9,4 +9,4 @@ install:
   - pip install https://github.com/jupyter/repo2docker/archive/master.zip
   
 script:
-  - repo2docker --no-run .
+  - repo2docker . papermill --help
